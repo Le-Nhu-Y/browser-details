@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
+  <h4>Browser's details: {navigator.userAgent}</h4>
+ </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
